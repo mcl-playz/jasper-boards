@@ -10,17 +10,23 @@
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0%);
+    margin: auto;
 }
 
 #content {
+    text-align: center;
+    outline: 1px solid rgb(0, 209, 0);
+    border-radius: 5px;
     height: calc(100vh - 60px);
-    outline: 2px solid rgb(0, 209, 0);
     margin: 20px;
     padding: 10px;
-    text-align: center;
 }
 
 hr {
     width: 50%;
     margin: 10px;
+}
+
+button {
+    margin: 10px 0px 10px 0;
 }
